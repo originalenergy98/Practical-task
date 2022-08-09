@@ -16,17 +16,16 @@ int num = Convert.ToInt32(Console.ReadLine());
 string[] myArray = GenerateArray(num);
 ShowArray(myArray);
 
-// Console.WriteLine("--------------");
-// int count = 0;
-// for (int i = 0; i < myArray.Length; i++){
-//     if (myArray[i].Length < 4){
-//         }}
-Console.WriteLine("--------------");
 string[] NewArray = new string[num];
 for (int i = 0; i < myArray.Length; i++){
     if (myArray[i].Length < 4){
         for (int j = 0; j < NewArray.Length; j++){
             NewArray[j] = myArray[i];
-            Console.Write(NewArray[j] + " ");}}
-    else
-    Console.Write("Массив строк больше трех");}
+            Console.Write(NewArray[j] + " ");}}}
+
+
+    // Console.WriteLine("--------------");
+// int count = 0;
+// for (int i = 0; i < myArray.Length; i++){
+//     if (myArray[i].Length < 4){
+//         }}
