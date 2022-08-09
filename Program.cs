@@ -21,12 +21,12 @@ ShowArray(myArray);
 // for (int i = 0; i < myArray.Length; i++){
 //     if (myArray[i].Length < 4){
 //         }}
-
-string[] NewArray = new string[num];
-
 Console.WriteLine("--------------");
+string[] NewArray = new string[num];
 for (int i = 0; i < myArray.Length; i++){
     if (myArray[i].Length < 4){
         for (int j = 0; j < NewArray.Length; j++){
             NewArray[j] = myArray[i];
-            Console.Write(NewArray[j] + " ");}}}
+            Console.Write(NewArray[j] + " ");}}
+    else
+    Console.Write("Массив строк больше трех");}
