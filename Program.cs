@@ -13,12 +13,12 @@ void ShowArray(string[] array){ // Выводит элементы в консо
 Console.WriteLine("Введите количество элементов в массиве");
 int num = Convert.ToInt32(Console.ReadLine());
 
-string[] myArray = GenerateArray(num);
-ShowArray(myArray);
+string[] MyArray = GenerateArray(num);
+ShowArray(MyArray);
 
 string[] NewArray = new string[1];
-for (int i = 0; i < myArray.Length; i++){
-    if (myArray[i].Length < 4){
+for (int i = 0; i < MyArray.Length; i++){
+    if (MyArray[i].Length < 4){
         for (int j = 0; j < NewArray.Length; j++){
-            NewArray[j] = myArray[i];
+            NewArray[j] = MyArray[i];
             Console.Write(NewArray[j] + " ");}}}
