@@ -18,12 +18,12 @@ string[] NewArray = new string[1];
 
 **5. Проводим первый массив через цикл for**
 
-i < myArray.Length
+i < MyArray.Length
 
 
 **6. Задаем условие: длинна эллементов массива неболее 3-ех**
 
-myArray[i].Length < 4. 
+MyArray[i].Length < 4. 
 
 **7. Проводим второй массив через цикл for**
 
@@ -31,7 +31,7 @@ j < NewArray.Length
 
 **8. Присваиваем второму массиву новые элементы меньше 3-ех**
 
-NewArray[j] = myArray[i]
+NewArray[j] = MyArray[i]
 
 **9. Выводим новый массив согласно условию**
 
