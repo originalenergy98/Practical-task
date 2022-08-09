@@ -16,16 +16,9 @@ int num = Convert.ToInt32(Console.ReadLine());
 string[] myArray = GenerateArray(num);
 ShowArray(myArray);
 
-string[] NewArray = new string[num];
+string[] NewArray = new string[1];
 for (int i = 0; i < myArray.Length; i++){
     if (myArray[i].Length < 4){
         for (int j = 0; j < NewArray.Length; j++){
             NewArray[j] = myArray[i];
             Console.Write(NewArray[j] + " ");}}}
-
-
-    // Console.WriteLine("--------------");
-// int count = 0;
-// for (int i = 0; i < myArray.Length; i++){
-//     if (myArray[i].Length < 4){
-//         }}
